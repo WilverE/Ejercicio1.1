@@ -13,7 +13,7 @@
         <asp:DropDownList ID="DropDownList1" runat="server">
         </asp:DropDownList>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
        
     </div>
 
